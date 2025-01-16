@@ -16,7 +16,7 @@ const ManageBookings = () => {
     enabled: !loading,
     queryFn: async () => {
       const res = await fetch(
-        `https://complete-pge-server.onrender.com//payments/all`,
+        `https://complete-pge-server.onrender.com/payments/all`,
         {
           headers: {
             authorization: `Bearer ${token}`,

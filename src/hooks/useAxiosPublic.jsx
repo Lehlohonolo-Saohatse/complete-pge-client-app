@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosPublic = axios.create({
-    baseURL: 'https://complete-pge-server.onrender.com/'
+    baseURL: 'https://complete-pge-server.onrender.com'
 })
 
 const useAxiosPublic = () => {
