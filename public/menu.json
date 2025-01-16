@@ -1,0 +1,112 @@
+[
+
+    {
+        "_id": "642c155b2c4774f05c36eea6",
+        "name": "Kasi Kota",
+        "recipe": "",
+        "image": "/images/home/kotas/Kota5.png",
+        "category": "kota",
+        "price": 20.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36eea4",
+        "name": "Kasi Classic Kota",
+        "recipe": "",
+        "image": "/images/home/kotas/Kota6.png",
+        "category": "kota",
+        "price": 26.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36eea5",
+        "name": "Sandton Classic Kota",
+        "recipe": "",
+        "image": "/images/home/kotas/Kota11.png",
+        "category": "kota",
+        "price": 35.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee712",
+        "name": "Crispy Chips",
+        "recipe": "",
+        "image": "/images/home/chips/Chips2.png",
+        "category": "chips",
+        "price": 20
+    },
+    {
+        "_id": "642c155b2c4774f05c36eeb9",
+        "name": "2L Coca-Cola Drinks",
+        "recipe": "",
+        "image": "/images/home/drinks/Coca-Cola1.png",
+        "category": "drinks",
+        "price": 28.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36eeba",
+        "name": "1.25L Coca-Cola Drinks",
+        "recipe": "",
+        "image": "/images/home/drinks/coke1.25.png",
+        "category": "drinks",
+        "price": 14.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee7x",
+        "name": "Dragon Energy Drink",
+        "recipe": "",
+        "image": "/images/home/drinks/Dragon.png",
+        "category": "drinks",
+        "price": 12.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee89",
+        "name": "Mofaya Energy Drink",
+        "recipe": "",
+        "image": "/images/home/drinks/mofaya.png",
+        "category": "drink",
+        "price": 12.00
+    },
+
+   {
+        "_id": "642c155b2c4774f05c36ee8a",
+        "name": "Switch Energy Drink",
+        "recipe": "",
+        "image": "/images/home/drinks/switch.png",
+        "category": "drink",
+        "price": 12.0
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee84",
+        "name": "Chippa Snacks",
+        "recipe": "",
+        "image": "/images/home/snacks/chippasnacks.png",
+        "category": "snacks",
+        "price": 5.00
+    },
+ 
+    {
+        "_id": "642c155b2c4774f05c36ee87",
+        "name": "Snack-Haven",
+        "recipe": "",
+        "image": "/images/home/snacks/snackhaven.png",
+        "category": "snacks",
+        "price": 5.00
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee90",
+        "name": "Nik-Naks",
+        "recipe": "",
+        "image": "/images/home/snacks/niknaks.png",
+        "category": "snacks",
+        "price": 1.50
+    },
+
+  
+    {
+        "_id": "642c155b2c4774f05c36ee81",
+        "name": "Cigarettes",
+        "recipe": "",
+        "image": "/images/home/cigarettes.png",
+        "category": "extras",
+        "price": 3.50
+    }
+    
+]
