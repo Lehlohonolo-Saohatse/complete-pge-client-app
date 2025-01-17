@@ -39,7 +39,7 @@ const ContactUs = () => {
                   href="tel:+27"
                   className="text-gray-600 hover:text-green-500 transition duration-300"
                 >
-                  (+27)_84_015_8221
+                  082-360-6426
                 </a>
               </div>
             </div>
@@ -50,7 +50,7 @@ const ContactUs = () => {
               </div>
               <p className="text-gray-800 font-medium ml-2 ">
                 <a
-                  href="https://wa.me/27840158221"
+                  href="https://wa.me/27823606426"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-600 hover:text-blue-500 transition duration-300"

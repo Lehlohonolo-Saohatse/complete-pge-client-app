@@ -97,7 +97,9 @@ const CheckoutForm = ({ price, cart }) => {
           margin: "20px auto",
         }}
       >
-        <h3 style={{ color: "#d9534f", fontSize: "18px", marginBottom: "15px" }}>
+        <h3
+          style={{ color: "#d9534f", fontSize: "18px", marginBottom: "15px" }}
+        >
           Note: Use the following as your Card Number -{" "}
           <span>
             <a
@@ -121,12 +123,16 @@ const CheckoutForm = ({ price, cart }) => {
               <br />
               <span style={{ color: "#555" }}>
                 <p>
-                  Account Number: <strong>1234566</strong>
+                  Standard Bank Account Number:{" "}
+                  <strong className="text-rose-700">
+                    10090396993 (Mr. B Saohatse)
+                  </strong>
                 </p>
               </span>
               <span style={{ color: "#555" }}>
                 <p>
-                  WhatsApp Number: <strong>084-015-8221</strong>
+                  WhatsApp Number:{" "}
+                  <strong className="text-rose-700">082-360-6426</strong>
                 </p>
               </span>
             </li>
@@ -136,6 +142,10 @@ const CheckoutForm = ({ price, cart }) => {
                 (Exclusive to Everyday Clients)
               </span>
             </li>
+            <hr></hr>
+            <p className="text-rose-700">
+              <h2>Warning: Do not use your card details (We still in trial mode)!!!!!</h2>
+            </p>
           </ol>
         </div>
       </div>

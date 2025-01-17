@@ -103,11 +103,11 @@ const Login = () => {
                 className="input input-bordered"
                 {...register("password", { required: true })}
               />
-              <label className="label">
+              {/*<label className="label">
                 <a href="#" className="label-text-alt link link-hover mt-2">
                   Forgot password?
                 </a>
-              </label>
+              </label>*/}
             </div>
 
             {/* show errors */}
@@ -131,7 +131,7 @@ const Login = () => {
     
 
             <p className="text-center my-2">
-              Donot have an account?
+              Do not have an account?
               <Link to="/signup" className="underline text-red ml-1">
                 Signup Now
               </Link>

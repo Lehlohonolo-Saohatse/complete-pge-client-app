@@ -1,28 +1,27 @@
-import React from 'react'
+import React from 'react';
 
 const LoadingSpinner = () => {
   return (
-    <div>
-        <div className="h-screen flex items-center justify-center bg-gradient-to-br from-gray-900 via-black to-gray-800 relative overflow-hidden">
-  {/* Animated Background */}
-  <div className="absolute inset-0 bg-gradient-to-r from-[#82e7d6] via-transparent to-[#82e7d6] animate-gradient-blur opacity-50"></div>
-  
-  {/* Text */}
-  <h1 className="relative text-3xl md:text-5xl font-extrabold text-center tracking-wide text-gray-50 z-10">
-    {Array.from("Putsoa Global Enterprise").map((char, index) => (
-      <span
-        key={index}
-        className="animate-fade text-[#82e7d6]"
-        style={{ animationDelay: `${index * 100}ms` }}
-      >
-        {char === " " ? "\u00A0" : char}
-      </span>
-    ))}
-  </h1>
-</div>
-
+    <div className="min-h-screen flex items-center justify-center bg-gray-50">
+      <div className="flex flex-col items-center justify-center space-y-4">
+        {/* Spinning Circle */}
+        <div className="w-16 h-16 border-4 border-gray-200 border-t-blue-600 rounded-full animate-spin"></div>
+        
+        {/* Company Name */}
+        <div className="text-center">
+          <h1 className="text-2xl font-semibold text-gray-800">
+            Putsoa Global Enterprise
+          </h1>
+          <div className="mt-2 flex justify-center">
+            <div className="h-1 w-24 bg-blue-600 rounded"></div>
+          </div>
+          <p className="mt-2 text-gray-600 text-sm">
+            Loading...
+          </p>
+        </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default LoadingSpinner
+export default LoadingSpinner;

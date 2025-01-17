@@ -78,7 +78,7 @@ const Signup = () => {
     <div className="max-w-md bg-white shadow w-full mx-auto flex items-center justify-center my-20">
       <div className="mb-5">
         <form className="card-body" onSubmit={handleSubmit(onSubmit)}>
-          <h3 className="font-bold text-lg">Please Create An Account!</h3>
+          <h3 className="font-bold text-lg">Please Create an Account!</h3>
           {/* name */}
           <div className="form-control">
             <label className="label">
@@ -116,11 +116,11 @@ const Signup = () => {
               className="input input-bordered"
               {...register("password")}
             />
-            <label className="label">
+            {/*<label className="label">
               <a href="#" className="label-text-alt link link-hover mt-2">
                 Forgot password?
               </a>
-            </label>
+            </label>*/}
           </div>
 
           {/* error message */}
@@ -136,7 +136,7 @@ const Signup = () => {
           </div>
 
           <div className="text-center my-2">
-            Have an account?
+            already have an account?
             <Link to="/login">
               <button className="ml-2 underline">Login here</button>
             </Link>
