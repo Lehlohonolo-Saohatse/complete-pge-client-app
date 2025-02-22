@@ -8,7 +8,7 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 # complete-pge-client-app
 
-![pge-client-app](./pge.png) | ![pge-client-app](./pge02.png)
+![pge-client-app](./pge.png) |![pge-client-app](./pge02.png)
 
 
 
